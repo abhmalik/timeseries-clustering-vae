@@ -1,10 +1,11 @@
-The code is originally taken from @tejaslodaya
+TL;DR: To get started with the code, jump to Timeseries_clustering-Main.ipynb. To view a quick demo of outliers check out: Outlier_demo.ipynb.
+This code is originally taken from @tejaslodaya.
 
 #  What is it?
 We present variational recurrent auto-encoder that learns the structure in the timeseries. Training is unsupervised. When we color the latent vectors with the actual labels, we show that the structure makes sense.
 
 # Results:
-The algorithm is able to identify regions where the account behaviour differes from expected behviour and is able to identify the transaction where it was changed.
+In this project, algorithm is able to identify regions where the account behaviour differes from expected behviour and is able to identify the transaction where it was changed.
 For example: In the case below, we can see sudden increse in reconstruction error when account activity increases beyond its baseline.
 ![](./images/outlier.png)
 
