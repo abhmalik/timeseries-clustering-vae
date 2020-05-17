@@ -6,10 +6,11 @@ We present variational recurrent auto-encoder that learns the structure in the t
 # Results:
 The algorithm is able to identify regions where the account behaviour differes from expected behviour and is able to identify the transaction where it was changed.
 For example: In the case below, we can see sudden increse in reconstruction error when account activity increases beyond its baseline.
+![](./images/outlier.png)
 
 Few more cases can are saved for demostration and can be viewed at: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/abhmalik/timeseries-clustering-vae/master)
 
-We used [Real anonymized Czech bank data] (https://data.world/lpetrocelli/czech-financial-dataset-real-anonymized-transactions) for this project.
+We used [Real anonymized Czech bank data](https://data.world/lpetrocelli/czech-financial-dataset-real-anonymized-transactions) for this project.
 ____
 
 # Timeseries clustering
