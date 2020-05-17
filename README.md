@@ -1,3 +1,17 @@
+The code is originally taken from @tejaslodaya
+
+#  What is it?
+We present variational recurrent auto-encoder that learns the structure in the timeseries. Training is unsupervised. When we color the latent vectors with the actual labels, we show that the structure makes sense.
+
+# Results:
+The algorithm is able to identify regions where the account behaviour differes from expected behviour and is able to identify the transaction where it was changed.
+For example: In the case below, we can see sudden increse in reconstruction error when account activity increases beyond its baseline.
+
+Few more cases can are saved for demostration and can be viewed at: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/abhmalik/timeseries-clustering-vae/master)
+
+We used [Real anonymized Czech bank data] (https://data.world/lpetrocelli/czech-financial-dataset-real-anonymized-transactions) for this project.
+____
+
 # Timeseries clustering
 
 Timeseries clustering is an unsupervised learning task aimed to partition unlabeled timeseries objects into homogenous groups/clusters. Timeseries in the same cluster are more similar to each other than timeseries in other clusters
@@ -5,7 +19,6 @@ Timeseries clustering is an unsupervised learning task aimed to partition unlabe
 This algorithm is able to:
 
 * Identify joint dynamics across the sequences
-* Eliminate lags (time-shifts) across sequences (usually called lag-invariance)
 * Generate features which are interpretable.
 
 In general, timeseries clustering algorithms are of two types:
