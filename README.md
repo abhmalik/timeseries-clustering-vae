@@ -101,10 +101,6 @@ FYI, the entire algorithm is an unsupervised one. Labels are just used to color 
 2. Modeling the group as a whole, is more robust to outliers and missing data.
 
 
-## Conclusion
-
-We present variational recurrent auto-encoder that learns the structure in the timeseries. Training is unsupervised. When we color the latent vectors with the actual labels, we show that the structure makes sense.
-
 ## Requirements
 
 Repo works with:
